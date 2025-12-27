@@ -39,12 +39,13 @@ If not, the system safely falls back to rule-based routing.
 - Checks room availability from database
 - Manages check-in and check-out dates
 - Stores stay details in database
-
+- Answering general facility-related queries (gym, spa, pool, etc.)
 ---
 
 ### 3. Restaurant Agent
 - Reads menu from Excel file
 - Takes food orders with quantities
+- Supports quantities and multiple items
 - Calculates total bill
 - Stores order details with status (Pending / Completed)
 
@@ -134,6 +135,7 @@ python app.py
 
 # 5. Run the admin dashboard
 streamlit run dashboard/dashboard.py
+
 
 
 
