@@ -69,30 +69,30 @@ This dashboard is meant for internal operations, not guests.
 
 ## Screenshots
 
-## 💬 Chat Flow Examples
+## Chat Flow Examples
 
-### 🛎 Room Booking
+### Room Booking
 ![Room Booking](images/Receptionist_Room_booking.png)
 
 ---
 
-### 🍽 Restaurant Food Ordering
+### Restaurant Food Ordering
 ![Food Order 1](images/Restaurant_Food%20order_1.png)
 ![Food Order 2](images/Restaurant_Food_order_2.png)
 
 ---
 
-### 🏋️ Facility Enquiry (Gym)
+### Facility Enquiry (Gym)
 ![Gym Enquiry](images/Receptionist_gym.png)
 
 ---
 
-### 🧹 Room Service Request
+### Room Service Request
 ![Room Service](images/Room_service_Cleaning.png)
 
 ---
 
-## 📊 Admin Dashboard
+## Admin Dashboard
 
 ### Dashboard Overview
 ![Dashboard 1](images/Dashboard_1.png)
@@ -134,5 +134,6 @@ python app.py
 
 # 5. Run the admin dashboard
 streamlit run dashboard/dashboard.py
+
 
 
