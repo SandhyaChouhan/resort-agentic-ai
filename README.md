@@ -1,4 +1,4 @@
-!(images/pinkvilla.png)
+!(images/pinkvilla.jpg)
 # Agentic AI System for a Resort (Pink Villa)
 
 This project was built as part of an assignment to understand how an agent-based AI system can be designed for a real-world use case like a resort.
@@ -136,6 +136,7 @@ python app.py
 
 # 5. Run the admin dashboard
 streamlit run dashboard/dashboard.py
+
 
 
 
