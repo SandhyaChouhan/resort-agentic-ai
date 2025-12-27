@@ -78,7 +78,7 @@ def update_room_service_status(request_id, new_status):
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(page_title="Pink Villa Dashboard", layout="wide")
-st.markdown("<h1>🎀 Pink Villa – Operations Dashboard 🎀</h1>", unsafe_allow_html=True)
+st.markdown("<h1>🎀 Welcome to Pink Villa 🎀</h1>", unsafe_allow_html=True)
 
 conn = get_connection()
 
@@ -218,3 +218,4 @@ guest_df["status"] = guest_df["status"].apply(status_badge)
 st.dataframe(guest_df, use_container_width=True)
 
 conn.close()
+
